@@ -2,6 +2,20 @@ import { Card } from "@/components/ui/card";
 import { Building2 } from "lucide-react";
 import altodigitalLogo from "@/assets/altodigital-logo.png";
 import btLogo from "@/assets/bt-logo.png";
+import btcellnetLogo from "@/assets/btcellnet-logo.png";
+import capgeminiLogo from "@/assets/capgemini-logo.png";
+import cloudlynxLogo from "@/assets/CloudLynx.png";
+import edsLogo from "@/assets/eds-logo.png";
+import gameLogo from "@/assets/game-logo.png";
+import genieLogo from "@/assets/Genie.png";
+import o2Logo from "@/assets/o2-logo.jpeg";
+import pcsLogo from "@/assets/ProfessionalCosmeticSurgery.png";
+import skyLogo from "@/assets/sky-logo.jpeg";
+import swisscomLogo from "@/assets/swisscom-logo.png";
+import medicalparkLogo from "@/assets/themedicalpark.png";
+import tmobileLogo from "@/assets/tmobile-logo.png";
+import vodafoneLogo from "@/assets/vodafone-logo.png";
+import brandThumb19 from "@/assets/brand-thumb-19.png";
 
 interface ExperienceItem {
   designation: string;
@@ -19,6 +33,20 @@ interface ExperienceProps {
 const availableLogos: { [key: string]: string } = {
   "altodigital-logo.png": altodigitalLogo,
   "bt-logo.png": btLogo,
+  "btcellnet-logo.png": btcellnetLogo,
+  "capgemini-logo.png": capgeminiLogo,
+  "CloudLynx.png": cloudlynxLogo,
+  "eds-logo.png": edsLogo,
+  "game-logo.png": gameLogo,
+  "Genie.png": genieLogo,
+  "o2-logo.jpeg": o2Logo,
+  "ProfessionalCosmeticSurgery.png": pcsLogo,
+  "sky-logo.jpeg": skyLogo,
+  "swisscom-logo.png": swisscomLogo,
+  "themedicalpark.png": medicalparkLogo,
+  "tmobile-logo.png": tmobileLogo,
+  "vodafone-logo.png": vodafoneLogo,
+  "brand-thumb-19.png": brandThumb19,
 };
 
 export const Experience = ({ experience }: ExperienceProps) => {
@@ -34,7 +62,6 @@ export const Experience = ({ experience }: ExperienceProps) => {
             const companyName = exp.company.split("|")[0].trim();
             const hasActualLogo = exp.logo && availableLogos[exp.logo];
             const logoSrc = hasActualLogo ? availableLogos[exp.logo] : null;
-            const isPlaceholder = exp.logo?.startsWith("placeholder-");
             
             return (
               <Card
@@ -51,14 +78,7 @@ export const Experience = ({ experience }: ExperienceProps) => {
                         className="max-w-full max-h-full object-contain" 
                       />
                     ) : (
-                      <div className="flex flex-col items-center justify-center w-full h-full">
-                        <Building2 className="w-8 h-8 text-muted-foreground mb-1" />
-                        {isPlaceholder && (
-                          <span className="text-[8px] text-muted-foreground text-center leading-tight">
-                            Add Logo
-                          </span>
-                        )}
-                      </div>
+                      <Building2 className="w-8 h-8 text-muted-foreground" />
                     )}
                   </div>
                   <div className="flex-1">
@@ -67,11 +87,6 @@ export const Experience = ({ experience }: ExperienceProps) => {
                     <p className="text-sm text-muted-foreground mb-3">{exp.period}</p>
                     {exp.description && (
                       <p className="text-sm text-foreground/80 leading-relaxed">{exp.description}</p>
-                    )}
-                    {isPlaceholder && (
-                      <p className="text-xs text-muted-foreground/70 mt-2 italic">
-                        Logo placeholder: {exp.logo?.replace("placeholder-", "").replace(".png", "")}
-                      </p>
                     )}
                   </div>
                 </div>
