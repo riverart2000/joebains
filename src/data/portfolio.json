@@ -65,102 +65,119 @@
       "designation": "Cloud Solutions Consultant",
       "period": "Jan 2024 – Jun 2024",
       "company": "dlexia.com | Mental Health Industry",
+      "logo": "placeholder-dlexia.png",
       "description": "Led cloud migration projects with AWS, Docker, and Kubernetes. Automated deployments in Python and enforced DevOps best practices."
     },
     {
       "designation": "Solutions & Migrations Engineer",
       "period": "Jan 2016 – Present",
       "company": "Professional Cosmetic Surgery | Healthcare",
+      "logo": "placeholder-pcs.png",
       "description": "Architected secure healthcare infrastructure, managed mission-critical databases, and led modernization projects using Linux, Python, and AWS."
     },
     {
       "designation": "Linux / OpenStack DevOps Engineer",
       "period": "Mar 2014 – Jan 2015",
       "company": "Cloudlynx AG | Basel, Switzerland",
+      "logo": "placeholder-cloudlynx.png",
       "description": "Built full OpenStack infrastructure, implemented monitoring, and handled secure communications and beta integrations."
     },
     {
       "designation": "Linux Administrator/Engineer",
       "period": "Oct 2013 – Feb 2014",
       "company": "Swisscom | Telecommunications",
+      "logo": "placeholder-swisscom.png",
       "description": "Led system administration and engineering initiatives, implemented automated deployment solutions, and managed high-availability infrastructure."
     },
     {
       "designation": "Build Engineer",
       "period": "Feb 2012 – Sep 2013",
       "company": "BSKYB | Broadcasting",
+      "logo": "placeholder-sky.png",
       "description": "Managed build and deployment processes for broadcast systems, implemented automated testing and deployment pipelines, and maintained CDN infrastructure."
     },
     {
       "designation": "Unix Network Administrator",
       "period": "June 2011 – Feb 2012",
       "company": "Game.co.uk | Games Industry",
+      "logo": "placeholder-game.png",
       "description": "Managed Unix/Linux environments and network infrastructure, implemented monitoring and automation solutions for gaming platforms."
     },
     {
       "designation": "Unix Network Administrator",
       "period": "Oct 2010 – May 2011",
       "company": "Everything Everywhere (T-Mobile) | Telecommunications",
+      "logo": "placeholder-tmobile.png",
       "description": "Managed Unix systems and network infrastructure, implemented automation and backup solutions for telecommunications systems."
     },
     {
       "designation": "Solutions & Migrations Engineer",
       "period": "June 2010 – Oct 2010",
       "company": "Prof. Cosmetic Surgery/Medical Park Chennai | Healthcare",
+      "logo": "placeholder-pcs.png",
       "description": "Led solutions implementation and system migrations, managed security and database administration for healthcare systems."
     },
     {
       "designation": "Solutions Engineer",
       "period": "Jan 2007 – April 2010",
       "company": "Vodafone Global | Telecommunications",
+      "logo": "placeholder-vodafone.png",
       "description": "Led application deployments and system integrations, managed Unix network administration for global telecommunications infrastructure."
     },
     {
       "designation": "Technical Environment Manager",
       "period": "Aug 2006 – Dec 2006",
       "company": "EDS | Public Sector",
+      "logo": "placeholder-eds.png",
       "description": "Managed technical environments and Unix administration, implemented system integrations and database solutions for public sector clients."
     },
     {
       "designation": "IT Consultant",
       "period": "Feb 2005 - Jul 2006",
       "company": "Professional Cosmetic Surgery | Healthcare",
+      "logo": "placeholder-pcs.png",
       "description": "Provided IT consulting and Unix network engineering, implemented system solutions and database management for healthcare operations."
     },
     {
       "designation": "Unix Network Administrator",
       "period": "Aug 2003 - Jan 2005",
       "company": "O2 | Telecommunications",
+      "logo": "placeholder-o2.png",
       "description": "Managed Unix systems and application integration, implemented security and storage solutions for telecommunications infrastructure."
     },
     {
       "designation": "Applications Integrator",
       "period": "Aug 2002 - Aug 2003",
       "company": "Cap Gemini | IT Consultancy",
+      "logo": "placeholder-capgemini.png",
       "description": "Led application integration projects and managed solutions engineering initiatives for enterprise clients."
     },
     {
       "designation": "Applications Integrator",
       "period": "May 2001 - Aug 2002",
       "company": "Genie / BTCellnet | Telecommunications",
+      "logo": "placeholder-btcellnet.png",
       "description": "Managed application integration and Unix administration, implemented system solutions and security measures for mobile networks."
     },
     {
       "designation": "Applications Integrator",
       "period": "Oct 2000 - May 2001",
       "company": "BT Syncordia Solutions | Telecommunications",
+      "logo": "bt-logo.png",
       "description": "Led application integration and change management, managed Unix administration and system security for telecommunications solutions."
     },
     {
       "designation": "Unix Network Administrator",
       "period": "Jan 2000 - Oct 2000",
       "company": "altodigital.com | Dot-Com",
+      "logo": "altodigital-logo.png",
       "description": "Managed Unix networks and Sybase database administration, implemented system and security solutions for dot-com infrastructure."
     },
     {
       "designation": "UNIX Consultant",
       "period": "Oct 1998 - Dec 2000",
       "company": "BTCellnet | Telecommunications",
+      "logo": "placeholder-btcellnet.png",
       "description": "Provided Unix consulting and system administration, managed application integration and infrastructure for telecommunications networks."
     }
   ],
