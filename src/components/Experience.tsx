@@ -6,6 +6,7 @@ interface ExperienceItem {
   designation: string;
   period: string;
   company: string;
+  description?: string;
 }
 
 interface ExperienceProps {
@@ -34,18 +35,21 @@ export const Experience = ({ experience }: ExperienceProps) => {
               <Card
                 key={index}
                 className="p-8 bg-card border-border hover:border-primary transition-smooth animate-fade-in-left"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                style={{ animationDelay: `${index * 0.05}s` }}
               >
                 <div className="flex flex-col md:flex-row gap-6 items-start">
                   {logo && (
-                    <div className="w-20 h-20 flex items-center justify-center bg-white rounded-lg p-2">
+                    <div className="w-20 h-20 flex-shrink-0 flex items-center justify-center bg-white rounded-lg p-2">
                       <img src={logo} alt={companyName} className="max-w-full max-h-full object-contain" />
                     </div>
                   )}
                   <div className="flex-1">
                     <h3 className="text-xl font-bold mb-2">{exp.designation}</h3>
                     <p className="text-primary font-semibold mb-2">{exp.company}</p>
-                    <p className="text-sm text-muted-foreground">{exp.period}</p>
+                    <p className="text-sm text-muted-foreground mb-3">{exp.period}</p>
+                    {exp.description && (
+                      <p className="text-sm text-foreground/80 leading-relaxed">{exp.description}</p>
+                    )}
                   </div>
                 </div>
               </Card>
