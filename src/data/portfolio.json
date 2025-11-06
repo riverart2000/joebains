@@ -1,0 +1,98 @@
+{
+  "site": {
+    "metadata": {
+      "title": "Joe Bains - IT Trainer & Consultant",
+      "description": "Senior Implementation Engineer, Linux Trainer, and Cloud Solutions Specialist with 25+ years of experience"
+    }
+  },
+  "navigation": [
+    {"text": "Home", "link": "#home"},
+    {"text": "About", "link": "#about"},
+    {"text": "Services", "link": "#services"},
+    {"text": "Skills", "link": "#skills"},
+    {"text": "Experience", "link": "#experience"},
+    {"text": "Portfolio", "link": "#portfolio"},
+    {"text": "Contact", "link": "#contact"}
+  ],
+  "hero": {
+    "subtitle": "I help tech teams deploy reliable Linux and Cloud infrastructure — fast.",
+    "title": "I'm Joe Bains",
+    "roles": [
+      "Implementation Engineer",
+      "Linux Admin/Trainer",
+      "Technical Trainer",
+      "Cloud Solutions Specialist"
+    ],
+    "description": "Over 25 years of hands-on experience delivering large-scale infrastructure, DevOps automation, and database solutions across telecom, healthcare, and cloud environments.",
+    "experience": {
+      "years": "25+",
+      "text": "Years of Experience"
+    }
+  },
+  "about": {
+    "description": "Senior Implementation Engineer and Linux Trainer with 25+ years experience in system integration, DevOps, and cloud infrastructure. Advanced Toastmaster and former SC-cleared professional combining deep technical knowledge with exceptional communication skills."
+  },
+  "services": [
+    {
+      "title": "Linux & Cloud Infrastructure",
+      "description": "Design, implement, and manage secure and scalable infrastructure using AWS, Docker, Kubernetes, Terraform, and VMware."
+    },
+    {
+      "title": "DevOps Automation & CI/CD",
+      "description": "Build and streamline continuous integration and deployment pipelines for reliable, fast, and efficient software delivery."
+    },
+    {
+      "title": "Database Administration & Optimization",
+      "description": "Administer and optimize MySQL, Oracle, and Sybase systems ensuring performance, security, and scalability."
+    },
+    {
+      "title": "Technical Training & Workshops",
+      "description": "Deliver hands-on Linux, Cloud, and DevOps training for technical teams and enterprises."
+    }
+  ],
+  "skills": [
+    {"name": "AWS", "level": 95},
+    {"name": "Linux", "level": 98},
+    {"name": "Docker", "level": 92},
+    {"name": "Kubernetes", "level": 90},
+    {"name": "Python", "level": 88},
+    {"name": "MySQL", "level": 90},
+    {"name": "DevOps", "level": 95},
+    {"name": "Terraform", "level": 87}
+  ],
+  "experience": [
+    {
+      "designation": "IT Trainer/Consultant",
+      "period": "Jan 2023 - Present",
+      "company": "Freelance | IT Training & Consulting"
+    },
+    {
+      "designation": "Senior Implementation Engineer",
+      "period": "Jan 2018 - Dec 2022",
+      "company": "Alto Digital | SaaS Healthcare"
+    },
+    {
+      "designation": "Senior Implementation Engineer",
+      "period": "May 2014 - Dec 2017",
+      "company": "Professional Cosmetic Surgery | Healthcare"
+    }
+  ],
+  "contact": {
+    "title": "Let's optimise your tech like I optimise biology — for speed, strength, and resilience.",
+    "location": "London, United Kingdom",
+    "social": [
+      {
+        "platform": "linkedin",
+        "link": "https://www.linkedin.com/in/joebains/"
+      },
+      {
+        "platform": "github",
+        "link": "https://github.com/joebains"
+      },
+      {
+        "platform": "youtube",
+        "link": "https://www.youtube.com/c/joebains"
+      }
+    ]
+  }
+}
