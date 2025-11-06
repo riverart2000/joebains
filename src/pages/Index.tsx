@@ -5,6 +5,7 @@ import { Services } from "@/components/Services";
 import { Skills } from "@/components/Skills";
 import { Experience } from "@/components/Experience";
 import { Portfolio } from "@/components/Portfolio";
+import { Testimonials } from "@/components/Testimonials";
 import { Contact } from "@/components/Contact";
 import portfolioData from "@/data/portfolio.json";
 
@@ -31,6 +32,8 @@ const Index = () => {
         <Experience experience={portfolioData.experience} />
         
         <Portfolio />
+        
+        <Testimonials testimonials={portfolioData.testimonials} />
         
         <Contact
           title={portfolioData.contact.title}

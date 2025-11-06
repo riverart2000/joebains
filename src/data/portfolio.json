@@ -12,6 +12,7 @@
     {"text": "Skills", "link": "#skills"},
     {"text": "Experience", "link": "#experience"},
     {"text": "Portfolio", "link": "#portfolio"},
+    {"text": "Testimonials", "link": "#testimonials"},
     {"text": "Contact", "link": "#contact"}
   ],
   "hero": {
@@ -179,6 +180,38 @@
       "company": "BTCellnet | Telecommunications",
       "logo": "btcellnet-logo.png",
       "description": "Provided Unix consulting and system administration, managed application integration and infrastructure for telecommunications networks."
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "Excellent Technical Understanding",
+      "content": "I worked with Joe over a number of years. He had an excellent technical understanding of our platforms and very often came up with excellent solutions to challenging problems.",
+      "author": "Akash Shah",
+      "designation": "Lead Product Manager at National Grid"
+    },
+    {
+      "title": "Technically Astute and Hard Working",
+      "content": "Joga is technically astute and a hard worker. It was a pleasure working with Joga. He was a senior member of the technical team at O2 and well respected.",
+      "author": "Grant Coleman",
+      "designation": "Senior Project Manager at O2 (Telefónica UK)"
+    },
+    {
+      "title": "Knowledgeable and Conscientious",
+      "content": "I have worked with Joga on many occasions during my time at Vodafone. He is a very knowledgeable, helpful and conscientious person. Always willing to help and put in long committed hours of work and travel whenever required.",
+      "author": "Amjad Karim",
+      "designation": "Integration Enterprise Architect at Vodafone"
+    },
+    {
+      "title": "Extra Dimension to the Team",
+      "content": "Joe added an extra dimension to the Partner Networks team both socially and professionally. Joe contributed to the successful delivery of many projects in the Vodafone Live! Programme and also took over my responsibilities when I left the team.",
+      "author": "Andy O'Rourke",
+      "designation": "Senior Director, Global Services Sales at Nutanix"
+    },
+    {
+      "title": "Excellent Technical and Management Skills",
+      "content": "I interact with Joe in his capacity as a CSE. He is responsible for launching the various Vodafone products in the Vodafone operating countries that he is responsible for. Joe has excellent technical and management skills. He has excellent communication skills and can put his point across to both technical and non-technical people. He is an excellent colleague and easy to get on with. He is tenacious and has an uncanny ability to get people to see his point of view.",
+      "author": "Chris McDaid",
+      "designation": "Software Quality Assurance Automation Engineer"
     }
   ],
   "contact": {

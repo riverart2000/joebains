@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import heroBackground from "@/assets/JoeBainsBG.jpeg";
 
 interface HeroProps {
   subtitle: string;
@@ -14,8 +15,20 @@ interface HeroProps {
 
 export const Hero = ({ subtitle, title, roles, description, experience }: HeroProps) => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-6 py-20">
-      <div className="max-w-4xl mx-auto text-center animate-fade-in">
+    <section 
+      id="home" 
+      className="min-h-screen flex items-center justify-center px-6 py-20 relative"
+      style={{
+        backgroundImage: `url(${heroBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
+      {/* Overlay for better text readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background/95"></div>
+      
+      <div className="max-w-4xl mx-auto text-center animate-fade-in relative z-10">
         <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-4">
           {subtitle}
         </p>
